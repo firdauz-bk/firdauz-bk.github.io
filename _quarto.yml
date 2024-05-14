@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "temp_website"
+  title: "Firdauz Quatro Exercise"
   navbar:
     logo: logo.png
     left:

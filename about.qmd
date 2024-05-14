@@ -1,9 +1,19 @@
 ---
-title: "About"
+title: "About me"
 ---
 
-About this site
+# Introduction
 
-```{r}
-1 + 1
-```
+::: columns
+::: {.column width="50%"}
+### About Me
+
+Hi, I am ***Firdauz*** and I am an aspiring Data Science student. <br> <br> I am keen and curious for learning. I am a passionate individual with a keen interest in technology and writing. I enjoy exploring new ideas and sharing knowledge with others. <br> <br>
+
+Proceed on...
+:::
+
+::: {.column width="50%"}
+![*Me/Firdauz*](img/me.jpg)
+:::
+:::
