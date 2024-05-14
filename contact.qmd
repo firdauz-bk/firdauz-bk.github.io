@@ -9,3 +9,10 @@ title: "Contact"
 -   **Phone***:* 91170623
 -   **Personal email***:* email\@firdauzbk.com
 :::
+
+
+::: {style="float:left; position: relative; top: 0px"}
+![](logo.png){height="100px" style="margin-right: 10px; align: left"}
+:::
+
+The Singapore Institute of Technology (SIT) is Singapore’s first University of Applied Learning and the third largest university by intake in Singapore. SIT’s mission is to maximise the potential of our learners and to innovate with industry, through an integrated applied learning and research approach, so as to contribute to the economy and society.
