@@ -2,18 +2,5 @@
 title: "About me"
 ---
 
-# About me
-
-::: columns
-::: {.column width="50%"}
-
-Hi, I am ***Firdauz*** and I am an aspiring Data Science student. <br> <br> I am keen and curious for learning. I am a passionate individual with a keen interest in technology and writing. I enjoy exploring new ideas and sharing knowledge with others. <br> <br>
-
->"Good vibes ✌" 
-> ***-Ringo Star***
-:::
-
-::: {.column width="50%"}
-![*Me/Firdauz*](img/me.jpg)
-:::
-:::
+this is the about page...
+test
