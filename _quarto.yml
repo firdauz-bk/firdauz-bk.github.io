@@ -9,7 +9,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: Project
+      - href : Movies.qmd
+        text: Movies
+      - href: Contact.qmd
+        text: Contact
 
 format:
   html:

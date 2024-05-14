@@ -2,15 +2,43 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About me",
+    "title": "Standalone Project",
     "section": "",
-    "text": "this is the about page… test"
+    "text": "You can visit my project here"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Introduction",
     "section": "",
-    "text": "About me\n\n\nHi, I am Firdauz and I am an aspiring Data Science student.   I am keen and curious for learning. I am a passionate individual with a keen interest in technology and writing. I enjoy exploring new ideas and sharing knowledge with others.  \n\n“Good vibes ✌” -Ringo Star\n\n\n\n\n\nMe/Firdauz"
+    "text": "About me\n\n\nHi, I’m Firdauz, an aspiring Data Science student.   I am keen and curious for learning. I am a passionate individual with a keen interest in technology and writing. I enjoy exploring new ideas and sharing knowledge with others.  \n\n“Good vibes ✌” -Ringo Star\n\n\n\n\n\nMe/Firdauz\n\n\n\n\n\n\nHobbies\n\nPlaying Music 🎵\nI enjoy playing various musical instruments, including the guitar. Music is a great way for me to relax and express myself creatively.\n\n\nSinging in the Shower 🎤\nOne of my favorite daily activities is singing in the shower. It’s a fun way to release stress. Really.\n\n\nRocking Out 🤘\nI love rocking out to my favorite bands and songs. Whether it’s at a live concert or just in my room, the energy and excitement of rock music are unmatched.\n\n\nLong Walks 🚶‍♂️\nTaking long walks helps me clear my mind and stay fit. I enjoy exploring new trails and appreciating the beauty of nature.\n\n\nMotorcycling Around the Country 🏍️\nI enjoy the thrill of motorcycling around the country, from TPE to BKE to PIE (but I prefer small secluded roads). It’s a great way to explore new places, feel the wind and experience the freedom of the open road."
+  },
+  {
+    "objectID": "about.html#project-page",
+    "href": "about.html#project-page",
+    "title": "Standalone Project",
+    "section": "",
+    "text": "You can visit my project here"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am available through these platform:\n\n\nEmail: 2302706@sit.singaporetech.edu.sg\nPhone: 91170623\nPersonal email: email@firdauzbk.com"
+  },
+  {
+    "objectID": "docs/Contact.html",
+    "href": "docs/Contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am available through these platform:\n\n\nEmail: 2302706@sit.singaporetech.edu.sg\nPhone: 91170623\nPersonal email: email@firdauzbk.com"
+  },
+  {
+    "objectID": "Contact.html",
+    "href": "Contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am available through these platform:\n\n\nEmail: 2302706@sit.singaporetech.edu.sg\nPhone: 91170623\nPersonal email: email@firdauzbk.com"
   }
 ]

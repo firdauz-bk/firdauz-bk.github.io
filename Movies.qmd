@@ -1,0 +1,43 @@
+---
+title: "Movies"
+---
+
+# Favourite Movies
+
+#### Top movies? Hell yes! You won't believe my top 1.
+
+## 3. Shutter Island
+
+::: columns
+::: {.column width="50%"}
+![](/img/movie3.jpg){width="400" height="400"}
+:::
+
+::: {.column width="50%"}
+{{< video https://www.youtube.com/watch?v=1SiNL_02StY width="600" height="400" >}}
+:::
+:::
+
+## 2. Schindler's List
+
+::: columns
+::: {.column width="50%"}
+![](/img/movie2.jpg){width="400" height="400"}
+:::
+
+::: {.column width="50%"}
+{{< video https://www.youtube.com/watch?v=1SiNL_02StY width="600" height="400" >}}
+:::
+:::
+
+## 2. Freddy Got Fingered
+
+::: columns
+::: {.column width="50%"}
+![](/img/movie1.jpg){width="400" height="400"}
+:::
+
+::: {.column width="50%"}
+{{< video https://www.youtube.com/watch?v=bz4RaZqA6w4 width="600" height="400" >}}
+:::
+:::

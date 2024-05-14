@@ -6,7 +6,7 @@ title: "Introduction"
 
 ::: columns
 ::: {.column width="50%"}
-Hi, I am ***Firdauz*** and I am an aspiring Data Science student. <br> <br> I am keen and curious for learning. I am a passionate individual with a keen interest in technology and writing. I enjoy exploring new ideas and sharing knowledge with others. <br> <br>
+Hi, I'm ***Firdauz***, an aspiring Data Science student. <br> <br> I am keen and curious for learning. I am a passionate individual with a keen interest in technology and writing. I enjoy exploring new ideas and sharing knowledge with others. <br> <br>
 
 > "Good vibes ✌" ***-Ringo Star***
 :::
@@ -15,3 +15,24 @@ Hi, I am ***Firdauz*** and I am an aspiring Data Science student. <br> <br> I am
 ![*Me/Firdauz*](img/me.jpg)
 :::
 :::
+
+# Hobbies
+
+### Playing Music 🎵
+
+I enjoy playing various musical instruments, including the guitar. Music is a great way for me to relax and express myself creatively.
+
+### Singing in the Shower 🎤
+
+One of my favorite daily activities is singing in the shower. It's a fun way to release stress. Really.
+
+### Rocking Out 🤘
+
+I love rocking out to my favorite bands and songs. Whether it's at a live concert or just in my room, the energy and excitement of rock music are unmatched.
+
+### Long Walks 🚶‍♂️
+
+Taking long walks helps me clear my mind and stay fit. I enjoy exploring new trails and appreciating the beauty of nature.
+
+### Motorcycling Around the Country 🏍️
+I enjoy the thrill of motorcycling around the country, from TPE to BKE to PIE (but I prefer small secluded roads). It's a great way to explore new places, feel the wind and experience the freedom of the open road.

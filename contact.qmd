@@ -1,0 +1,11 @@
+---
+title: "Contact"
+---
+
+### I am available through these platform:
+
+::: column
+-   **Email***:* 2302706\@sit.singaporetech.edu.sg
+-   **Phone***:* 91170623
+-   **Personal email***:* email\@firdauzbk.com
+:::

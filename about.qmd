@@ -1,6 +1,33 @@
 ---
-title: "About me"
+title: "Standalone Project"
 ---
 
-this is the about page...
-test
+# AI Aimbot (Educational Purposes Only)
+
+## *Brief Summary*
+
+#### Currently I am working on a project using image recognition using
+
+#### - OpenCV with CUDA
+
+#### - CVAT
+
+#### - YOLOv8
+
+## *How does it work?*
+
+### In summary:
+
+#### 1. I will be using 200-1000 random in-game screenshots as a dataset.
+
+#### 2. Some of the screenshots will get their data annotation through CVAT to identify character models.
+
+#### 3. Afterwards I will use YOLOv8 to train the data.
+
+#### 4. Using OpenCV for object identification while in-game. Using win32api library to automatically move mouse curser to character models.
+
+## Project Page
+
+::: columns
+You can visit my project [here](%22https://github.com/firdauzbk/AI_mbot%22)
+:::
