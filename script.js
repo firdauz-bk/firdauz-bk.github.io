@@ -40,7 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // GitHub projects loader
     const loadGitHubProjects = async () => {
         try {
-            const response = await fetch('https://api.github.com/users/firdauzbk/repos?sort=updated&per_page=6');
+            // Correct GitHub API URL with your username
+            const response = await fetch('https://api.github.com/users/firdauz-bk/repos?sort=updated&per_page=6');
             const projects = await response.json();
             
             const projectsContainer = document.getElementById('github-projects');

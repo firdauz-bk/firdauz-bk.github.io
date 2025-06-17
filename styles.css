@@ -548,6 +548,24 @@ section {
     flex-direction: column;
 }
 
+/* Add this to your existing CSS */
+.info-item a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.info-item a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+/* Add this to make the footer links clickable */
+.social-links a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
 #contact-form input,
 #contact-form textarea {
     margin-bottom: 1.2rem;
