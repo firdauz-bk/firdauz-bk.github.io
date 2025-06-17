@@ -42,52 +42,73 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             // Correct GitHub API URL with your username
             const response = await fetch('https://api.github.com/users/firdauz-bk/repos?sort=updated&per_page=6');
-            const projects = await response.json();
             
+            if (!response.ok) {
+                throw new Error(`GitHub API error: ${response.status}`);
+            }
+            
+            const projects = await response.json();
             const projectsContainer = document.getElementById('github-projects');
+            
+            // Clear loading skeletons
             projectsContainer.innerHTML = '';
             
+            if (!projects || projects.length === 0) {
+                projectsContainer.innerHTML = `
+                    <div class="error-message">
+                        <p>No public repositories found.</p>
+                    </div>
+                `;
+                return;
+            }
+            
             projects.forEach(project => {
-                if (!project.fork && project.description) {
-                    const projectCard = document.createElement('div');
-                    projectCard.className = 'project-card';
-                    
-                    // Create topics string
-                    let topicsHTML = '';
-                    if (project.topics && project.topics.length > 0) {
-                        topicsHTML = `<div class="project-topics">${
-                            project.topics.slice(0, 3).map(topic => 
-                                `<span class="topic">${topic}</span>`
-                            ).join('')
-                        }</div>`;
-                    }
-                    
-                    projectCard.innerHTML = `
-                        <div class="project-img">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <div class="project-content">
-                            <h3>${project.name}</h3>
-                            <p>${project.description || 'No description available'}</p>
-                            <div class="project-meta">
-                                <span><i class="fas fa-star"></i> ${project.stargazers_count}</span>
-                                <span><i class="fas fa-code-branch"></i> ${project.forks_count}</span>
-                            </div>
-                            ${topicsHTML}
-                            <a href="${project.html_url}" target="_blank" class="cta-button" style="margin-top: 1rem; display: inline-block; text-align: center; padding: 0.5rem 1rem; font-size: 0.9rem;">
-                                View on GitHub
-                            </a>
-                        </div>
-                    `;
-                    
-                    projectsContainer.appendChild(projectCard);
+                // Skip forks and empty repos
+                if (project.fork || !project.name) return;
+                
+                const projectCard = document.createElement('div');
+                projectCard.className = 'project-card';
+                
+                // Verify and clean the repository URL
+                const repoUrl = project.html_url || `https://github.com/firdauz-bk/${project.name}`;
+                
+                // Create topics string
+                let topicsHTML = '';
+                if (project.topics && project.topics.length > 0) {
+                    topicsHTML = `<div class="project-topics">${
+                        project.topics.slice(0, 3).map(topic => 
+                            `<span class="topic">${topic}</span>`
+                        ).join('')
+                    }</div>`;
                 }
+                
+                projectCard.innerHTML = `
+                    <div class="project-img">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>${project.name.replace(/-/g, ' ')}</h3>
+                        <p>${project.description || 'No description available'}</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-star"></i> ${project.stargazers_count || 0}</span>
+                            <span><i class="fas fa-code-branch"></i> ${project.forks_count || 0}</span>
+                        </div>
+                        ${topicsHTML}
+                        <a href="${repoUrl}" target="_blank" rel="noopener noreferrer" class="cta-button" style="margin-top: 1rem; display: inline-block; text-align: center; padding: 0.5rem 1rem; font-size: 0.9rem;">
+                            View on GitHub
+                        </a>
+                    </div>
+                `;
+                
+                projectsContainer.appendChild(projectCard);
             });
+            
         } catch (error) {
             console.error('Error loading GitHub projects:', error);
             document.getElementById('github-projects').innerHTML = `
                 <div class="error-message">
-                    <p>Failed to load projects. Please check back later.</p>
+                    <p>Failed to load projects. Please check your GitHub username or try again later.</p>
+                    <p>Error: ${error.message}</p>
                 </div>
             `;
         }
